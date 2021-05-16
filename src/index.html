@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>display charrom</title>
+</head>
+<body>
+  <h1>display NES charrom</h1>
+  <div class="abstract">NES(famicon)のCharacter ROMの内容を描画します。</div>
+  <div id="drop-zone" style="border: 1px solid; padding: 30px;">
+    <p>NESファイルのドラッグ＆ドロップで読み込みます（初期値は、'hello.nes'）</p>
+    <input type="file" name="file" id="file-input">
+  </div>
+   
+  <!-- <div class="bg"></div> -->
+  <!-- <img src="./images/webpack-logo.svg"> -->
+  <div id="charROM">
+    <canvas id="display" width="720" height="400">代替テキスト</canvas>
+    <textarea class="textArea" value="1" cols="64" rows="40" maxlength="15">テスト</textarea>
+  </div>
+  
+</body>
+</html>
